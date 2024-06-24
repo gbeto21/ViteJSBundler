@@ -1,3 +1,6 @@
+import "./css/styles.css";
+import 'bootstrap'
+
 const signinBtn = document.getElementById("signin-btn");
 const usernameTxt = document.getElementById("username-txt");
 const passwordTxt = document.getElementById("password-txt");

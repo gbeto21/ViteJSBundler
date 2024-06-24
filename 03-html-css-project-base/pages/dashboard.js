@@ -1,3 +1,7 @@
+import "../css/dashboard.css"
+import "../css/styles.css"
+import movieDb from '../assets/movieDb.json' //You can import json files by default.
+
 const actionMoviesContainer = document.getElementById("action-movies-container");
 const animatedMoviesContainer = document.getElementById("animated-movies-container");
 const signoutBtn = document.getElementById("signout");
