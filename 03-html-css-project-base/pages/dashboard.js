@@ -1,6 +1,6 @@
-import "../css/dashboard.css"
-import "../css/styles.css"
-import buttonStyle from '../css/buttonStyle.module.css'
+import "../css/dashboard.scss"
+import "../css/styles.scss"
+import buttonStyle from '../css/buttonStyle.module.scss'
 import movieDb from '../assets/movieDb.json' //You can import json files by default.
 
 const userType = "regular"

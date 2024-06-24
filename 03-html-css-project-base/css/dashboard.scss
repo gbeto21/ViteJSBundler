@@ -8,20 +8,21 @@
     display: flex;
 }
 
-.navbar .header-menu {
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-start;
-}
+.navbar {
 
-.navbar .header-menu a {
-    margin-right: 20px;
-    color: white !important;
-}
-
-.navbar .header-menu a:hover {
-    color: lightgray !important;
-    cursor: pointer;
+    .header-menu{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .header-menu a {
+        margin-right: 20px;
+        color: white !important;
+    }
+    .header-menu a:hover {
+        color: lightgray !important;
+        cursor: pointer;
+    }
 }
 
 .scroll-container {
